@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  color: orange;
+}
+
+p {
+  color: red;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+div {
+  background-image: url('./background.jpg');
+  background-position: center;
+  background-size: cover;
+
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tagline {
+  display: flex;
+  flex-direction: column;
+}
